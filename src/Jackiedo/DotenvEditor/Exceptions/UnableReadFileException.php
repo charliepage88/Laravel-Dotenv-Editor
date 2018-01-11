@@ -1,4 +1,5 @@
-<?php namespace Jackiedo\DotenvEditor\Exceptions;
+<?php 
+namespace Jackiedo\DotenvEditor\Exceptions;
 
 use Exception;
 

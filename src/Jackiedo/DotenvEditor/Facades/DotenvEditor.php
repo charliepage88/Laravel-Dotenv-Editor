@@ -1,4 +1,5 @@
-<?php namespace Jackiedo\DotenvEditor\Facades;
+<?php 
+namespace Jackiedo\DotenvEditor\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

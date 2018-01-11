@@ -1,4 +1,5 @@
-<?php namespace Jackiedo\DotenvEditor;
+<?php 
+namespace Jackiedo\DotenvEditor;
 
 use Illuminate\Support\ServiceProvider;
 

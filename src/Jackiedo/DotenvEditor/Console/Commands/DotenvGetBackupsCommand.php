@@ -1,4 +1,5 @@
-<?php  namespace Jackiedo\DotenvEditor\Console\Commands;
+<?php  
+namespace Jackiedo\DotenvEditor\Console\Commands;
 
 use Illuminate\Console\Command;
 use Jackiedo\DotenvEditor\DotenvEditor;
@@ -46,7 +47,7 @@ class DotenvGetBackupsCommand extends Command
      *
      * @return mixed
      */
-    public function fire()
+    public function handle()
     {
         $headers = ['File name', 'File path', 'Created at'];
         $backups = ($this->option('latest')) ? [$this->editor->getLatestBackup()] : $this->editor->getBackups();

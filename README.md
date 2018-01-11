@@ -80,6 +80,8 @@ $ composer update
 'DotenvEditor' => Jackiedo\DotenvEditor\Facades\DotenvEditor::class,
 ```
 
+> **Note:** For Laravel 5.5+, no need to do the above two updates, auto package discovery handles it for you automatically.
+
 ## Configuration
 To get started, you'll need to publish configuration file:
 
